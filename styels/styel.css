@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* top banner */
+.banner-section {
+  background-color: rgba(229, 84, 115, 0.1);
+  position: absolute;
+  width: 1920px;
+  height: 850px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 4017px;
+}
+/* .banner-section > .greetings {
+  width: 960px;
+  border: 2px red solid;
+} */
+.banner-section > .greetings>.greet{
+    position: absolute;
+    width: 708px;
+    height: 288px;
+    left: 240px;
+    right: -240px;
+    top: 197px;
+    bottom: 21px;
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left; 
+}
+.banner-section > .greetings>p{
+    position: absolute;
+width: 634px;
+height: 90px;
+left: 240px;
+right: -166px;
+top: 517px;
+bottom: -101px;
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-section>.greetings>.btn-prime{
+    /* btn Frame 1 */
+position: relative;
+width: 177px;
+height: 64px;
+right: -240px;
+top: 639px;
+bottom: -69px;
+}
+.btn-prime{
+    /* btn-layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 20px 43px 20px 43px;
+color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+border: none;
+background: rgb(229, 84, 115);
+cursor: pointer;
+}
+.btn-prime:hover{background-color: gainsboro;}
