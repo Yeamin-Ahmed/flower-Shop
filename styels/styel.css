@@ -80,3 +80,13 @@ background: rgb(229, 84, 115);
 cursor: pointer;
 }
 .btn-prime:hover{background-color: gainsboro;}
+.banner-section>.pic{
+    /* pngwing 10 */
+position: absolute;
+width: 635px;
+height: 800px;
+left: 1045px;
+right: 240px;
+top: 50px;
+bottom: 4017px;
+}
