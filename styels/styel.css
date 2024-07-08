@@ -19,74 +19,178 @@
   width: 960px;
   border: 2px red solid;
 } */
-.banner-section > .greetings>.greet{
-    position: absolute;
-    width: 708px;
-    height: 288px;
+.banner-section > .greetings > .greet {
+  position: absolute;
+  width: 708px;
+  height: 288px;
+  left: 240px;
+  right: -240px;
+  top: 197px;
+  bottom: 21px;
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-section > .greetings > p {
+  position: absolute;
+  width: 634px;
+  height: 90px;
+  left: 240px;
+  right: -166px;
+  top: 517px;
+  bottom: -101px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-section > .greetings > .btn-prime {
+  /* btn Frame 1 */
+  position: relative;
+  width: 177px;
+  height: 64px;
+  right: -240px;
+  top: 639px;
+  bottom: -69px;
+}
+.btn-prime {
+  /* btn-layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 43px 20px 43px;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+  background: rgb(229, 84, 115);
+  cursor: pointer;
+}
+.btn-prime:hover {
+  background-color: gainsboro;
+}
+.banner-section > .pic {
+  /* pngwing 10 */
+  position: absolute;
+  width: 635px;
+  height: 800px;
+  left: 1045px;
+  right: 240px;
+  top: 50px;
+  bottom: 4017px;
+}
+
+/* 2nd part */
+.featured > .featured-flower > h4 {
+  position: absolute;
+  width: 398px;
+  height: 48px;
+  left: 764px;
+  right: -562px;
+  top: 1028px;
+  bottom: -944px;
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.featured > .featured-flower > p {
+  position: absolute;
+  width: 594px;
+  height: 60px;
+  left: 663px;
+  right: -663px;
+  top: 1100px;
+  bottom: -1028px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* 3flowers */
+.first-flower{position: absolute;
+    width: 464px;
+    height: 538px;
     left: 240px;
     right: -240px;
-    top: 197px;
-    bottom: 21px;
-    color: rgb(39, 39, 39);
-font-family: Lato;
-font-size: 80px;
-font-weight: 800;
-line-height: 96px;
-letter-spacing: 0%;
-text-align: left; 
+    top: 1208px;
+    bottom: -1141px;
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(167, 33, 98, 0.15);
 }
-.banner-section > .greetings>p{
+.second-flower{position: absolute;
+    width: 464px;
+    height: 538px;
+    left: 728px;
+    right: -728px;
+    top: 1208px;
+    bottom: -1141px;
+    border-radius: 300px 300px 0px 0px;
+
+background:rgba(5, 151, 160, 0.15)
+}
+.third-flower{position: absolute;
+    width: 464px;
+    height: 538px;
+    left: 1216px;
+right: -1216px;
+    top: 1208px;
+    bottom: -1141px;
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(71, 125, 17, 0.15);
+}
+.flower-tree {
     position: absolute;
-width: 634px;
-height: 90px;
-left: 240px;
-right: -166px;
-top: 517px;
-bottom: -101px;
-color: rgba(39, 39, 39, 0.6);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
+    width: 310px;
+    height: 428px;
+    left: 76px;
+    right: 76px;
+    top: 110px;
+    bottom: 0px; 
+    
 }
-.banner-section>.greetings>.btn-prime{
-    /* btn Frame 1 */
-position: relative;
-width: 177px;
-height: 64px;
-right: -240px;
-top: 639px;
-bottom: -69px;
-}
-.btn-prime{
-    /* btn-layout */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 20px 43px 20px 43px;
-color: rgb(255, 255, 255);
-font-family: Lato;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-border-radius: 8px;
-border: none;
-background: rgb(229, 84, 115);
-cursor: pointer;
-}
-.btn-prime:hover{background-color: gainsboro;}
-.banner-section>.pic{
-    /* pngwing 10 */
+.first-flower>a{
 position: absolute;
-width: 635px;
-height: 800px;
-left: 1045px;
-right: 240px;
-top: 50px;
-bottom: 4017px;
+width: 12px;
+color: #000;
+left: 190px;
+top: 557px;
+bottom: 0px;
 }
+.second-flower>a{
+    position: absolute;
+    width: 12px;
+    color: #000;
+    left: 190px;
+    top: 557px;
+    bottom: 0px;
+    }
+.third-flower>a{
+    position: absolute;
+    width: 12px;
+    color: #000;
+    left: 190px;
+    top: 557px;
+    bottom: 0px;
+    }
