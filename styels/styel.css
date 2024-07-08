@@ -194,3 +194,70 @@ bottom: 0px;
     top: 557px;
     bottom: 0px;
     }
+
+
+
+
+    /* footer-section */
+    .foot{
+        position: absolute;
+width: 1920px;
+height: 449px;
+left: -2px;
+right: 2px;
+top: 4418px;
+bottom: -4418px;
+background: rgb(17, 16, 16);
+    }
+    .foot>.foot-h{
+        font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+position: absolute;
+width: 272px;
+height: 58px;
+left: 829px;
+right: 834px;
+top: 128px;
+bottom: -4155px;
+    }
+    .foot>.foot-h>#flower{
+        color: rgb(229, 84, 115);
+    }
+    .foot>.foot-h>#Shop{
+        color:rgb(255, 255, 255);
+    }
+    .foot>#foot-p{
+        position: absolute;
+width: 625px;
+height: 60px;
+left: 646px;
+right: 651px;
+top: 210px;
+bottom: 0px;
+color: rgba(255, 255, 255, 0.9);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .foot>#copyright-p{
+        position: absolute;
+width: 355px;
+height: 19px;
+left: 782px;
+right: 785px;
+top: 302px;
+bottom: 0px;
+color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+    }
